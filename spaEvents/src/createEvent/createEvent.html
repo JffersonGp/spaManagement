@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Evento</title>
+    <link rel="stylesheet" href="createEvent.css">
+    <script src="../session/session.js" defer></script>
+    <script src="createEvent.js" defer></script>
+</head>
+
+<body>
+    <h1>Crear Nuevo Evento</h1>
+    <form id="creationEvent">
+        <input type="text" name="nameEvent" placeholder="Nombre del evento" required />
+        <textarea name="description" placeholder="Descripción" required></textarea>
+        <input type="number" name="ability" placeholder="Capacidad" required />
+        <input type="date" name="date" placeholder="Fecha" required>
+        <button type="submit">Crear</button>
+    </form>
+</body>
+
+</html>
