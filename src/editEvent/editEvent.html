@@ -1,0 +1,23 @@
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Evento</title>
+    <link rel="stylesheet" href="editEvent.css">
+    <script src="../session/session.js" defer></script>
+    <script src="editEvent.js" defer></script>
+</head>
+
+<body>
+    <h1>Editar Evento</h1>
+    <form id="formEditEvent">
+        <input type="text" name="name" placeholder="Nombre del evento" required />
+        <textarea name="description" placeholder="Descripción" required></textarea>
+        <input type="number" name="ability" placeholder="Capacidad" required />
+        <input type="date" name="date" placeholder="Fecha" required>
+        <button type="submit">Guardar Cambios</button>
+    </form>
+</body>
+
+</html>
